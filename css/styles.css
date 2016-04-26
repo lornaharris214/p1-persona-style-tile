@@ -4,18 +4,86 @@
 
 /* Color Palette */
 
+    .color-1 {
+        background: pink;   
+    }
+
+    .color-2 {
+        background: purple;   
+    }
+
+    .color-3 {
+        background: grey;   
+    }
+
+    .color-4 {
+        background: darkblue;   
+    }
+
+    .color-5 {
+        background: aquamarine;   
+    }
 
 /* Textures or Patterns*/
 
+    .pattern-1 {
+        background: url(http://line25.com/wp-content/uploads/2011/backgrounds/05.jpg);
+        background-postion: left;
+        background-size: cover;
+    }
 
 /* Imagery */
+
+    .imagery-1 {
+    background-size: cover;
+    }
 
 
 /* Icons */
 
+    .icon-1 {
+        border: none;
+    }
 
 /* Navigation */
 
+    nav li {
+        list-style: none;
+    }
 
+    nav a:link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: pink;
+    }
+
+    nav a:visited {
+        color: blue;
+    }
+
+    nav a:hover {
+        color: aquamarine;
+    }
+
+button {
+    background: #7878C7;
+    color: white;
+    font-size: 1.5em;
+    border: 0;
+    border-radius: 25px 0px 25px 0px;
+}
 /* Typography */
 
+h1 {
+    font-family: Henny Penny, cursive;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: Henny Penny, cursive;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.25em;
+}
