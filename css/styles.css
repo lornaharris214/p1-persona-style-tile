@@ -8,25 +8,77 @@
 
     .personaimages {
         margin-top: 130px;
+        background: url('../img/dark_wood.png');
+        padding-top: 100px;
+        margin: 0;
+        padding-bottom: 10px;
     }
 
     .hr {
         background-color: #00697F;
         height: 20px;
         z-index: 2;
+        margin-bottom: 75px;
     }
+
     .styletile {
         margin-top: -32px;
     }
 
-    .colorpalette {
-        padding-top: 40px;
-    }
+footer {
+    width: 100%;
+    height: 20px;
+    color: white;
+    background-color: #233D42;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 0.75em;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
 /* Color Palette */
 
+    .color-1 {
+        background-color: #233D42;
+    }
+
+    .color-2 {
+        background-color: #00697F;
+    }
+
+    .color-3 {
+        background-color: #00A8CC;
+    }
+
+    .color-4 {
+        background-color: #7BE7FF;
+    }
+
+    .color-5 {
+        background-color: white;
+    }
 
 /* Textures or Patterns*/
+    .pattern-1 {
+        background: url('../img/dark_wood.png');
+    }
 
+    .pattern-2 {
+        background: url('../img/linedpaper.png');
+    }
+
+    .pattern-3 {
+        background: url();
+    }
+
+    .pattern-4 {
+        background: url();
+    }
+
+    .pattern-5 {
+        background: url();
+    }
 
 /* Imagery */
 
@@ -58,11 +110,13 @@
     p {
         color: white;
         text-align: justify;
+        font-family: 'Open Sans', sans-serif;
     }
 
     h2 {
         color: white;
         text-align: justify;
+        font-family: 'Open Sans', sans-serif;
     }
 
     h1 {
