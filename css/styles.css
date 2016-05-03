@@ -2,6 +2,26 @@
 /* YOUR STYLES */
 /***************/
 
+    body {
+        background-color: black;
+    }
+
+    .personaimages {
+        margin-top: 130px;
+    }
+
+    .hr {
+        background-color: #00697F;
+        height: 20px;
+        z-index: 2;
+    }
+    .styletile {
+        margin-top: -32px;
+    }
+
+    .colorpalette {
+        padding-top: 40px;
+    }
 /* Color Palette */
 
 
@@ -10,12 +30,61 @@
 
 /* Imagery */
 
+    .personaimg1, .personaimg2 {
+        border: 10px solid #00697F;
+        border-radius: 25px;
+        margin: 10px 10px 10px 10px;  
+    }
 
 /* Icons */
 
 
 /* Navigation */
 
+    .navbar {
+        background-color: #233D42;
+        width: 100%;
+        height: 100px;
+        color: white;
+        z-index: 1;
+        padding: 10px;
+        margin: -10px 0 0 0;
+        position: fixed;
+        top: 0;
+    }
 
 /* Typography */
 
+    p {
+        color: white;
+        text-align: justify;
+    }
+
+    h2 {
+        color: white;
+        text-align: justify;
+    }
+
+    h1 {
+        color: #7BE7FF;
+        font-family: 'Alex Brush', cursive; 
+        font-size: 4em;
+        text-align: center;
+        margin-top: -185px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .navbar p {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .75em;
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    /* Logo */
+
+    .navbar svg {
+        width: 200px;
+        margin: -20px 10px 0px 0px;
+    }
