@@ -2,88 +2,89 @@
 /* YOUR STYLES */
 /***************/
 
+    body {
+        background-color: black;
+    }
+
+    .personaimages {
+        margin-top: 130px;
+    }
+
+    .hr {
+        background-color: #00697F;
+        height: 20px;
+        z-index: 2;
+    }
+    .styletile {
+        margin-top: -32px;
+    }
+
+    .colorpalette {
+        padding-top: 40px;
+    }
 /* Color Palette */
 
-    .color-1 {
-        background: pink;   
-    }
-
-    .color-2 {
-        background: purple;   
-    }
-
-    .color-3 {
-        background: grey;   
-    }
-
-    .color-4 {
-        background: darkblue;   
-    }
-
-    .color-5 {
-        background: aquamarine;   
-    }
 
 /* Textures or Patterns*/
 
-    .pattern-1 {
-        background: url(http://line25.com/wp-content/uploads/2011/backgrounds/05.jpg);
-        background-postion: left;
-        background-size: cover;
-    }
 
 /* Imagery */
 
-    .imagery-1 {
-    background-size: cover;
+    .personaimg1, .personaimg2 {
+        border: 10px solid #00697F;
+        border-radius: 25px;
+        margin: 10px 10px 10px 10px;  
     }
-
 
 /* Icons */
 
-    .icon-1 {
-        border: none;
-    }
 
 /* Navigation */
 
-    nav li {
-        list-style: none;
+    .navbar {
+        background-color: #233D42;
+        width: 100%;
+        height: 100px;
+        color: white;
+        z-index: 1;
+        padding: 10px;
+        margin: -10px 0 0 0;
+        position: fixed;
+        top: 0;
     }
 
-    nav a:link {
-        text-decoration: none;
-        text-transform: uppercase;
-        color: pink;
-    }
-
-    nav a:visited {
-        color: blue;
-    }
-
-    nav a:hover {
-        color: aquamarine;
-    }
-
-button {
-    background: #7878C7;
-    color: white;
-    font-size: 1.5em;
-    border: 0;
-    border-radius: 25px 0px 25px 0px;
-}
 /* Typography */
 
-h1 {
-    font-family: Henny Penny, cursive;
-    font-size: 3em;
-}
+    p {
+        color: white;
+        text-align: justify;
+    }
 
-h2 {
-    font-family: Henny Penny, cursive;
-    font-size: 1.5em;
-}
+    h2 {
+        color: white;
+        text-align: justify;
+    }
 
-p {
-    font-size: 1.25em;
-}
+    h1 {
+        color: #7BE7FF;
+        font-family: 'Alex Brush', cursive; 
+        font-size: 4em;
+        text-align: center;
+        margin-top: -185px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .navbar p {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: .75em;
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    /* Logo */
+
+    .navbar svg {
+        width: 200px;
+        margin: -20px 10px 0px 0px;
+    }
